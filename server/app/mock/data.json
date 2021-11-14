@@ -1,0 +1,16 @@
+{
+    "result": "1",
+    "msg": "调用成功！",
+    "code": "200",
+    "data": [
+        ["date", "totalData"],
+        [
+            "2019-07-08",
+            {
+                "number": 13453,
+                "equalScale": "10",
+                "circleScale": "5"
+            }
+        ]
+    ]
+}

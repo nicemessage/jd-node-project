@@ -1,0 +1,80 @@
+// z
+
+.self-scroll::-webkit-scrollbar-thumb,
+.self-scroll textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #e9f1ff;
+}
+
+.self-scroll::-webkit-scrollbar-track,
+.self-scroll textarea::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.com-dialog .el-dialog__body::-webkit-scrollbar,
+.com-dialog .el-dialog__body textarea::-webkit-scrollbar {
+    width: 4px;
+    height: 0px;
+}
+
+.com-dialog .el-dialog__body::-webkit-scrollbar-thumb,
+.com-dialog .el-dialog__body textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #e9f1ff;
+}
+
+.com-dialog .el-dialog__body::-webkit-scrollbar-track,
+.com-dialog .el-dialog__body textarea::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #fff;
+}
+
+/*滚动条样式设置*/
+.el-table__body-wrapper::-webkit-scrollbar {
+  width: 3px;
+  height: 8px;
+}
+
+.spacer{
+    flex: 1 1 auto;
+}
+.clear:after{
+  clear: both;
+  font-size: 0;
+  height: 0;
+  overflow: hidden;
+}
+/* 鼠标滑过提示样式 */
+.el-tooltip__popper.is-dark {
+  background: rgba(255,255,255,1);
+  box-shadow: 0px 2px 20px 0px rgba(62,106,246,0.14);
+  color: #303133;
+  max-width: 400px;
+  line-height: 18px;
+}
+.el-tooltip__popper.is-dark .popper__arrow{
+  border-color: rgba(0,0,0,0);
+}
+.el-tooltip__popper[x-placement^=top] .popper__arrow:after {
+  border-top-color: #fff;
+}
+.el-tooltip__popper[x-placement^=bottom] .popper__arrow:after {
+  border-bottom-color: #fff;
+}
+.el-tooltip__popper[x-placement^=left] .popper__arrow:after {
+  border-left-color: #fff;
+}
+.el-tooltip__popper[x-placement^=right] .popper__arrow:after {
+  border-right-color: #fff;
+}
+/* 重新灰色按钮 获取交点效果*/
+.el-button--info.is-plain:focus {
+  color: #909399;
+  background: #f4f4f5;
+  border-color: #d3d4d6;
+}

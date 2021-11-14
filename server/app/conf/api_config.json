@@ -1,0 +1,12 @@
+{
+    "api": {
+        "comment": "画像系统接口",
+        "domain": "http://internal.bdp-avatar-paas",
+        "pDomain": "http://10.220.145.247:1601",
+        "pDev": "http://stage-api-avatar.jd.com",
+        "pre": "http://172.24.230.98:1601",
+        "pTest": "http://pre-api-avatar.jd.com",
+        "test": "http://10.222.99.216:8088",
+        "dev": "http://internal.bdp-avatar-paas"
+    }
+}

@@ -1,0 +1,199 @@
+.edit-tag-section[data-v-214effa4] {
+  padding-right: 50px;
+  overflow: auto;
+}
+[data-v-214effa4] .noSuffix .el-input__suffix {
+  display: none;
+}
+.title[data-v-214effa4] {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+.title[data-v-214effa4]::before {
+    content: '';
+    width: 3px;
+    height: 16px;
+    background: #396bf6;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+}
+.top-section[data-v-214effa4],
+.bottom-section[data-v-214effa4] {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-section_left[data-v-214effa4],
+  .bottom-section_left[data-v-214effa4] {
+    flex-basis: 100%;
+}
+.pl10[data-v-214effa4] {
+  padding-left: 40px;
+}
+.bottom-section[data-v-214effa4] {
+  margin: 0;
+}
+.bottom-section_right[data-v-214effa4] {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.center-section[data-v-214effa4] {
+  margin: 10px 0px;
+}
+.com-width[data-v-214effa4] {
+  width: 100%;
+}
+.top-section_right[data-v-214effa4] {
+  display: flex;
+}
+.flex[data-v-214effa4] {
+  display: flex;
+}
+.w100[data-v-214effa4] {
+  width: 80%;
+}
+.w100[data-v-214effa4] {
+  width: 100%;
+}
+[data-v-214effa4] .cell {
+  margin-top: 24px;
+}
+
+.paginationa[data-v-34b20a36] {
+  padding: 10px;
+  text-align: right;
+}
+.searchStyle[data-v-34b20a36] {
+  position: absolute;
+  z-index: 10;
+  top: 40px;
+  left: 10px;
+  width: 500px !important;
+}
+.edit-tag-section[data-v-34b20a36] {
+  padding-right: 50px;
+}
+[data-v-34b20a36] .cell {
+  margin-top: 24px;
+}
+[data-v-34b20a36] .noSuffix .el-input__suffix {
+  display: none;
+}
+.flex[data-v-34b20a36] {
+  display: flex;
+}
+.title[data-v-34b20a36] {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+.title[data-v-34b20a36]::before {
+    content: '';
+    width: 3px;
+    height: 16px;
+    background: #396bf6;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+}
+.top-section[data-v-34b20a36],
+.bottom-section[data-v-34b20a36] {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-section_left[data-v-34b20a36],
+  .bottom-section_left[data-v-34b20a36] {
+    flex-basis: 100%;
+}
+.top-section_right[data-v-34b20a36],
+  .bottom-section_right[data-v-34b20a36] {
+    flex-basis: 30%;
+}
+.bottom-section[data-v-34b20a36] {
+  margin: 0;
+}
+.bottom-section_right[data-v-34b20a36] {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.center-section[data-v-34b20a36] {
+  margin: 10px 0px;
+}
+.com-width[data-v-34b20a36] {
+  width: 100%;
+}
+.mgt6[data-v-34b20a36] {
+  margin: 6px 0;
+}
+.use-form[data-v-34b20a36]  {
+  display: flex;
+}
+.use-form[data-v-34b20a36] .el-select + .el-select,
+  .use-form[data-v-34b20a36] .el-input + .el-select {
+    margin-left: 4px;
+}
+.use-form[data-v-34b20a36] .h30 .el-input__inner {
+    height: 30px;
+    line-height: 30px;
+}
+.use-form[data-v-34b20a36] .h30 .el-input__icon {
+    line-height: 30px;
+}
+.pl10[data-v-34b20a36] {
+  padding-left: 40px;
+}
+
+.data-source-section[data-v-2eb16c80] {
+  padding: 10px 20px;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+.backBtn[data-v-2eb16c80] {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+[data-v-2eb16c80] .is-disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+.root[data-v-2eb16c80] {
+  flex: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.root[data-v-2eb16c80] .el-tab-pane {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.root[data-v-2eb16c80] .el-tab-pane::-webkit-scrollbar,
+    .root[data-v-2eb16c80] .el-tab-pane textarea::-webkit-scrollbar {
+      width: 6px;
+      height: 0px;
+}
+.root[data-v-2eb16c80] .el-tab-pane::-webkit-scrollbar-thumb,
+    .root[data-v-2eb16c80] .el-tab-pane textarea::-webkit-scrollbar-thumb {
+      background: #d8d8d8;
+}
+.root[data-v-2eb16c80] .el-tab-pane::-webkit-scrollbar-track,
+    .root[data-v-2eb16c80] .el-tab-pane textarea::-webkit-scrollbar-track {
+      background: #e9e9e9;
+}
+

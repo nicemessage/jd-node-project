@@ -1,0 +1,66 @@
+/* 提出的样式-勿改 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('./font/iconfont.eot?t=1582014357279');
+    /* IE9 */
+    src: url('./font/iconfont.eot?t=1582014357279#iefix') format('embedded-opentype'), url('./font/iconfont.woff?t=1582014357279') format('woff');
+}
+.iconfont {
+    font-family: 'iconfont' !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icongengduo:before {
+    content: '\e66a';
+}
+
+.iconbianji:before {
+    content: '\e66b';
+}
+
+.icontongji:before {
+    content: '\e66c';
+}
+
+.iconuser:before {
+    content: '\e66d';
+}
+
+.iconclass:before {
+    content: '\e66e';
+}
+
+.iconpeople:before {
+    content: '\e66f';
+}
+
+.iconupload:before {
+    content: '\e670';
+}
+
+.icontag:before {
+    content: '\e671';
+}
+
+.icon1_round_solid:before {
+    content: '\e64e';
+}
+
+.icon2_round_solid:before {
+    content: '\e64f';
+}
+
+.icon3_round_solid:before {
+    content: '\e650';
+}
+
+.iconliebiao:before {
+    content: '\e656';
+}
+
+.iconwenhao:before {
+    content: '\e600';
+}

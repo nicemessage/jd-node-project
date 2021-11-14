@@ -1,0 +1,207 @@
+footer[data-v-37ffd149] {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 80px;
+}
+.offline-width[data-v-37ffd149] {
+  width: 100%;
+}
+.offline-top-width[data-v-37ffd149] {
+  width: 80%;
+}
+.sjytable-head[data-v-37ffd149] {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background: #ccc;
+  font-weight: bold;
+  font-size: 18px;
+}
+.sjyBox[data-v-37ffd149] {
+  border: 2px solid #396bf6;
+  display: flex;
+  width: calc(100% - 120px) !important;
+  margin: 0px 0px 20px 120px;
+}
+.sjyBox p[data-v-37ffd149] {
+    flex: 1;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: #ccc;
+    font-weight: bold;
+    font-size: 18px;
+}
+.parambox[data-v-37ffd149] {
+  display: flex;
+  padding-right: 80px;
+  margin-bottom: 20px;
+}
+.parambox h3[data-v-37ffd149] {
+    width: 110px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-left: 50px;
+}
+.parambox div[data-v-37ffd149] {
+    width: 100%;
+}
+
+[data-v-6bc73206] .noHeight {
+  max-height: none !important;
+}
+a[data-v-6bc73206] {
+  padding-right: 10px;
+}
+.offline-section[data-v-6bc73206] {
+  margin-top: 15px;
+}
+.offline-filter[data-v-6bc73206] {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 0px 1px;
+}
+.offline-filter_left[data-v-6bc73206] {
+    display: flex;
+}
+.offline-filter_left .search-ipt[data-v-6bc73206] {
+      width: 350px;
+}
+.offline-filter_select[data-v-6bc73206] {
+    margin-right: 5px;
+}
+[data-v-6bc73206] .el-input__inner {
+  background: none;
+}
+
+.data-configure[data-v-0750a615] {
+  padding: 0 0 10px;
+}
+.edit-real-time-section[data-v-0750a615] {
+  height: auto;
+  padding: 30px;
+}
+.sjyBox[data-v-0750a615] {
+  border: 2px solid #396bf6;
+  display: flex;
+  width: calc(100% - 120px) !important;
+  margin: 0px 0px 20px 120px;
+}
+.sjyBox p[data-v-0750a615] {
+    flex: 1;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: #ccc;
+    font-weight: bold;
+    font-size: 18px;
+}
+[data-v-0750a615] .noSuffix .el-input__suffix {
+  display: none;
+}
+.sjytable-head[data-v-0750a615] {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background: #ccc;
+  font-weight: bold;
+  font-size: 18px;
+}
+.parambox[data-v-0750a615] {
+  display: flex;
+  padding-right: 80px;
+  margin-bottom: 20px;
+}
+.parambox h3[data-v-0750a615] {
+    width: 110px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-left: 50px;
+}
+.parambox div[data-v-0750a615] {
+    width: 100%;
+}
+footer[data-v-0750a615] {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 80px;
+}
+.edit-word[data-v-0750a615] {
+  display: flex;
+  align-items: flex-start;
+}
+.word-list[data-v-0750a615] {
+  line-height: 30px;
+  margin-left: 10px;
+}
+.word-list .tag-item[data-v-0750a615] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.word-list .tag-item.disabled[data-v-0750a615] {
+      background: #f4f4f5;
+      color: #bcbec2;
+      border-color: #e9e9eb;
+}
+.com-width[data-v-0750a615] {
+  width: 100%;
+}
+.title3[data-v-0750a615] {
+  padding-left: 120px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+[data-v-0750a615] .jieguoBox .el-form-item__content {
+  height: 102px;
+  border: 1px solid #396bf6;
+  overflow: auto;
+  border-radius: 3px;
+}
+[data-v-0750a615] .active .el-form-item__content {
+  background-color: #f5f7fa;
+  border-color: #e4e7ed;
+  color: #c0c4cc;
+  cursor: not-allowed;
+}
+
+a[data-v-1b23f22a] {
+  padding-right: 10px;
+}
+.offline-section[data-v-1b23f22a] {
+  margin-top: 15px;
+}
+.offline-filter[data-v-1b23f22a] {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.offline-filter_left[data-v-1b23f22a] {
+    display: flex;
+}
+.offline-filter_left .search-ipt[data-v-1b23f22a] {
+      width: 350px;
+}
+.offline-filter_select[data-v-1b23f22a] {
+    margin-right: 5px;
+}
+[data-v-1b23f22a] .el-input__inner {
+  background: none;
+}
+
+.data-source-section[data-v-5682bb0e] {
+  padding: 10px 20px;
+}
+[data-v-5682bb0e] .el-tabs__header {
+  margin-bottom: 0;
+}
+[data-v-5682bb0e] .el-tabs__item {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  box-sizing: content-box;
+  line-height: 50px;
+}
+

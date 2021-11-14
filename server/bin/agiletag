@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+const app = require('../app/app');
+
+const cluster = require('cluster');
+if (cluster.isMaster && serverObj.env != 'dev') {
+    const cpus = require('os').cpus().length;
+    for (let i = 0; i < cpus; i++) {
+        cluster.fork();
+    }
+    cluster.on('online', function(worker) {
+        console.log('主进程' + worker.process.pid);
+    });
+} else {
+    if(serverObj.env == "test"){
+        app.set('port', process.env.APP_PORT || 8100);
+    }else{
+        app.set('port', process.env.APP_PORT || 13003);
+    }
+    app.HttpServer.listen(app.get('port'),function(){
+        console.log(`The server is running on port ${app.get('port')}`);
+    });
+}

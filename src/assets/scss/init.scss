@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    color: #333;
+    font-size: 14px;
+    //font-family: 'PingFangSC-Regular', '微软雅黑','Hiragino Sans GB', 'Microsoft YaHei',  Arial, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+table {
+    border-collapse: collapse;
+    text-align: left;
+    padding: 0;
+}
+i {
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #396bf6;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: none;
+}
+textarea {
+    resize: none;
+}
+em {
+    font-style: normal;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+        background: #dbdbdb;
+        background-clip: content-box;
+
+     &:window-inactive {
+         width: 0px;
+         height: 0px;
+     }
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background-color: rgba(153,153,153,0.6);
+}
+
+::-webkit-clear-button{
+    width: 0;
+    height: 0;
+}

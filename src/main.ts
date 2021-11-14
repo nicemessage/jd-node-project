@@ -1,0 +1,24 @@
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router';
+import store from './store';
+import ElementUI from 'element-ui';
+import EventBus from 'vue-bus-ts';
+import api from '@/assets/utils/api';
+import VueClipboard from 'vue-clipboard2';
+import 'element-ui/lib/theme-chalk/index.css';
+import '@/assets/scss/element-variables.scss';
+import 'leaflet/dist/leaflet.css';
+import '@/types/property';
+import '@/assets/scss/tag.scss';
+import '@/assets/utils/filter';
+import '@/assets/utils/drag';
+import '@/assets/utils/icons';
+VueClipboard.config.autoSetContainer = true;
+Vue.config.productionTip = false;
+Vue.use(ElementUI);
+Vue.use(EventBus);
+Vue.use(api);
+Vue.use(VueClipboard);
+
+new Vue({router, store, render: h => h(App as any)}).$mount('#app');

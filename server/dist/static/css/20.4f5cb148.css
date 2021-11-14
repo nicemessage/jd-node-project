@@ -1,0 +1,80 @@
+.searchBox[data-v-45b90a32] {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.searchBox .search_left[data-v-45b90a32] {
+    width: 300px;
+}
+
+footer[data-v-a6b5e310] {
+  text-align: center;
+  margin-top: 36px;
+}
+[data-v-a6b5e310] .el-select {
+  width: 100%;
+}
+[data-v-a6b5e310] .noSuffix .el-input__suffix {
+  display: none;
+}
+
+a[data-v-4a25d5fb] {
+  padding-right: 10px;
+}
+.class-admin[data-v-4a25d5fb] {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.header[data-v-4a25d5fb] {
+  width: 100%;
+  height: 64px;
+  display: flex;
+}
+.header[data-v-4a25d5fb] .el-input__inner {
+    background: none;
+}
+.header .subject-list[data-v-4a25d5fb] {
+    width: 30%;
+    height: 64px;
+    flex: 1 1 auto;
+}
+.header .search-tag-btn[data-v-4a25d5fb] {
+    min-width: 300px;
+    height: 64px;
+    margin-right: 20px;
+    float: right;
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+.FlexCenter[data-v-4a25d5fb] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.section[data-v-4a25d5fb] {
+  padding: 0 20px;
+  overflow-y: auto;
+  height: calc(100% - 68px);
+}
+.pool-search[data-v-4a25d5fb] {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 12px 0;
+}
+.pool-search .search-ipt[data-v-4a25d5fb] {
+    width: 350px;
+}
+.pool-search_left[data-v-4a25d5fb] {
+    flex: 1;
+    display: flex;
+}
+.pool-search_select[data-v-4a25d5fb] {
+    margin-right: 15px;
+    width: 110px;
+}
+
